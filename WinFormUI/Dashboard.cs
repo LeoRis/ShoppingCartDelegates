@@ -38,7 +38,11 @@ namespace WinFormUI
 
         private void textBoxDemoButton_Click(object sender, EventArgs e)
         {
+            decimal total = cart.GenerateTotal((subTotal) => subTotalTextBox.Text = $"{subTotal:C2}",
+                (products, subTotal) => subTotal - (products.Count * 2),
+                (message) => {  });
 
+            totalTextBox.Text = $"{total:C2}";
         }
 
         private void PrintOutDiscountAlert(string message)
