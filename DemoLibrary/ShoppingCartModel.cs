@@ -9,9 +9,8 @@ namespace DemoLibrary
     public class ShoppingCartModel
     {
         public delegate void MentionDiscount(decimal firstSubTotal);
-
         public List<ProductModel> Items { get; set; } = new List<ProductModel>();
-        
+
         public decimal GenerateTotal(MentionDiscount mentionDiscount)
         {
             decimal subTotal = Items.Sum(x => x.Price);
