@@ -60,7 +60,7 @@
             // 
             this.totalTextBox.Location = new System.Drawing.Point(330, 148);
             this.totalTextBox.Name = "totalTextBox";
-            this.totalTextBox.Size = new System.Drawing.Size(231, 40);
+            this.totalTextBox.Size = new System.Drawing.Size(231, 48);
             this.totalTextBox.TabIndex = 2;
             // 
             // totalLabel
@@ -68,7 +68,7 @@
             this.totalLabel.AutoSize = true;
             this.totalLabel.Location = new System.Drawing.Point(324, 112);
             this.totalLabel.Name = "totalLabel";
-            this.totalLabel.Size = new System.Drawing.Size(69, 33);
+            this.totalLabel.Size = new System.Drawing.Size(97, 40);
             this.totalLabel.TabIndex = 3;
             this.totalLabel.Text = "Total";
             // 
@@ -77,7 +77,7 @@
             this.subTotalLabel.AutoSize = true;
             this.subTotalLabel.Location = new System.Drawing.Point(324, 33);
             this.subTotalLabel.Name = "subTotalLabel";
-            this.subTotalLabel.Size = new System.Drawing.Size(107, 33);
+            this.subTotalLabel.Size = new System.Drawing.Size(149, 40);
             this.subTotalLabel.TabIndex = 5;
             this.subTotalLabel.Text = "Subtotal";
             // 
@@ -85,21 +85,21 @@
             // 
             this.subTotalTextBox.Location = new System.Drawing.Point(330, 69);
             this.subTotalTextBox.Name = "subTotalTextBox";
-            this.subTotalTextBox.Size = new System.Drawing.Size(231, 40);
+            this.subTotalTextBox.Size = new System.Drawing.Size(231, 48);
             this.subTotalTextBox.TabIndex = 4;
             // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 33F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(21F, 40F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(606, 361);
+            this.ClientSize = new System.Drawing.Size(731, 487);
             this.Controls.Add(this.subTotalLabel);
             this.Controls.Add(this.subTotalTextBox);
             this.Controls.Add(this.totalLabel);
             this.Controls.Add(this.totalTextBox);
             this.Controls.Add(this.textBoxDemoButton);
             this.Controls.Add(this.messageBoxDemoButton);
-            this.Font = new System.Drawing.Font("Open Sans", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
             this.Name = "Dashboard";
             this.Text = "Delegates Demo by Tim Corey";
