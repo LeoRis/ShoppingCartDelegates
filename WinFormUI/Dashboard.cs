@@ -13,7 +13,7 @@ namespace WinFormUI
 {
     public partial class Dashboard : Form
     {
-        ShoppingCartModel cart = new ShoppingCartModel();
+        readonly ShoppingCartModel cart = new ShoppingCartModel();
 
         public Dashboard()
         {
